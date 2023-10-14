@@ -1,0 +1,13 @@
+body{
+	background: red;
+}
+
+.bf-primary{
+	background: yellowgreen !important;
+}
+.banner{
+	width: 100%;
+	height: 93vh;
+	background: url(../img/MYPIC.jpg);
+	background-size: cover;
+	color: white;}

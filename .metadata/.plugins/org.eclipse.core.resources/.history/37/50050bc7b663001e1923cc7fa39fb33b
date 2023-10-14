@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<h1>hii servie</h1>
+	<footer th:replace="footer::footer1('this is title','this is subtitle')">
+		
+		
+	</footer>
+	
+	
+</body>
+</html>

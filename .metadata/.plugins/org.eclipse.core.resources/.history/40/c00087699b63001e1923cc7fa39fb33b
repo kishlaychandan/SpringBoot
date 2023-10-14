@@ -1,0 +1,28 @@
+package com.practice.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class MyController {
+
+	@RequestMapping(value="/about",method = RequestMethod.GET)
+	public String about(Model model) {
+		
+		System.out.println("inside about hndlr");
+		
+		model.addAttribute("name","kishlay");
+		model.addAttribute("currentDate",new java.util.Date().toLocaleString());
+		return "about.html";
+	}
+	@GetMapping("/example-loop")
+	public String interateHandler() {
+		
+		return "iterate";
+	}
+	
+}
+ 

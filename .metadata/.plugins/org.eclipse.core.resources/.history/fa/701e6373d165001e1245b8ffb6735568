@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::Layout(~{::section})">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+
+<body>
+	<section class="banner d-flex justify-content-center align-items-cemter">
+		<div>
+			
+			<h1>Smart contact manager</h1>
+			
+		</div>
+		<h1>this is home page</h1>
+	</section>
+</body>
+
+</html>

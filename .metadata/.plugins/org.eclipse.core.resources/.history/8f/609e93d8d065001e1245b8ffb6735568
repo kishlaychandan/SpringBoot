@@ -1,0 +1,12 @@
+body{
+	background: red;
+}
+
+.bf-primary{
+	background: yellowgreen !important;
+}
+.banner{
+	width: 100%;
+	height: 93vh;
+	background: black;
+	color: white;}

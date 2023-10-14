@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::Layout()">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<section>
+	<h1>this is new about page</h1>
+	<p>gfh fghjnm gfhbnm  ftghvbn  tfgvbh n sedfcvb sedfcgvbn  okjn esdfcv b </p>
+	</section>
+
+</body>
+</html>

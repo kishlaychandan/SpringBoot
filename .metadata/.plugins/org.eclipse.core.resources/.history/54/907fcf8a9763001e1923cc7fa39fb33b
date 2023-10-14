@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+
+<body>
+	<h1>About Thymeleaf by kishlay</h1>
+	<h1>We r learninig</h1>
+	<h1 th:text="${ #strings.toUpperCase(name) }"></h1>
+	<h2>Name of the owner is... <span th:text="${name}"></span> </h2>
+
+	<div th:with="a=5,b=7,n=${name">
+		
+		
+	</div>
+
+</body>
+
+</html>
